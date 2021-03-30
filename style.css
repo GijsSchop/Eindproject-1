@@ -1,10 +1,15 @@
 header{
-  height: 70px;
+  height: 140px;
   background-color: rgb(199, 199, 199);
-  width: 50vw;
+  width: 80vw;
  font-size: 30px;
  text-align: center;
  margin: 0px auto;
  margin-top: 50px;
- border-radius: 10px 10px 0px 0px;
+ border-radius: 10px 10px 10px 10px;
    }
+
+   button {
+  text-align: center;
+  background-color: ivory;
+}
