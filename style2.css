@@ -8,3 +8,34 @@ header{
  margin-top: 50px;
  border-radius: 10px 10px 10px 10px;
    }
+
+*{
+  box-sizing: border-box;
+}
+
+
+ul{
+  margin: 0;
+}
+
+ul li{
+  display:inline-block;
+  padding:10px;
+}
+
+a{
+ color: white; 
+ background-color: rgba(255, 122, 122, 0.836);
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+ border: 1px solid white;
+ border-radius: 3px;
+ padding: 5px;
+}
+
+article{
+  background-color:aliceblue;
+  width:80vw;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+}
