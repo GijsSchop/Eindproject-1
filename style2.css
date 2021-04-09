@@ -1,13 +1,17 @@
 header{
   height: 80px;
-  background-color: rgb(199, 199, 199);
+  background-color: rgba(255, 122, 122, 0.836);
   width: 80vw;
  font-size: 30px;
  text-align: center;
  margin: 0px auto;
  margin-top: 50px;
- border-radius: 10px 10px 10px 10px;
+ border-radius: 10px 10px 0px 0px;
    }
+
+body {
+  background-color: rgb(233, 230, 230);
+}
 
 *{
   box-sizing: border-box;
@@ -34,8 +38,20 @@ a{
 }
 
 article{
-  background-color:aliceblue;
+  background-color:rgb(252, 167, 97);
   width:80vw;
-  margin: 10px auto 10px auto;
+  margin: 0px auto;
   padding: 10px;
+  text-align: center;
 }
+
+  footer{
+    
+    bottom:10px;
+    width:80vw;
+    height:80px;
+    background-color: rgb(252, 112, 112);
+    margin: 0px auto;
+    border-radius: 0px 0px 10px 10px;
+     text-align: center;
+  }
